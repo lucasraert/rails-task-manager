@@ -1,0 +1,5 @@
+  <% if task.done == true %>
+    <input type="checkbox" name="task" checked><%= task.description %><br>
+  <% else %>
+    <input type="checkbox" name="task"><%= task.description %><br>
+  <% end %>
